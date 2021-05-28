@@ -79,6 +79,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cabinet.NET", "src\Cabinet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabinet.UWP", "src\Cabinet.UWP\Cabinet.UWP.csproj", "{8E7B7EB3-114B-48C4-8987-38E63DDCA09D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UUPMediaCreator.GtkApp", "src\Applications\UUPMediaCreator.GtkApp\UUPMediaCreator.GtkApp.csproj", "{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\WindowsUpdateLib.Shared\WindowsUpdateLib.Shared.projitems*{0d26e90f-2cf6-4ba5-b235-72e646a3ff48}*SharedItemsImports = 13
@@ -402,6 +404,18 @@ Global
 		{8E7B7EB3-114B-48C4-8987-38E63DDCA09D}.Release|x64.Build.0 = Release|x64
 		{8E7B7EB3-114B-48C4-8987-38E63DDCA09D}.Release|x86.ActiveCfg = Release|x86
 		{8E7B7EB3-114B-48C4-8987-38E63DDCA09D}.Release|x86.Build.0 = Release|x86
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|arm64.ActiveCfg = Debug|arm64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|arm64.Build.0 = Debug|arm64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|x64.ActiveCfg = Debug|x64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|x64.Build.0 = Debug|x64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|x86.ActiveCfg = Debug|x86
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Debug|x86.Build.0 = Debug|x86
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|arm64.ActiveCfg = Release|arm64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|arm64.Build.0 = Release|arm64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|x64.ActiveCfg = Release|x64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|x64.Build.0 = Release|x64
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|x86.ActiveCfg = Release|x86
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -441,6 +455,7 @@ Global
 		{113C95B3-1CBB-4B02-8BFE-8A623AD67F85} = {24BB6CC7-870A-4A61-BAC0-E22BF57CE5F4}
 		{C5835DCF-1A20-414B-865A-AA3F8CACE62D} = {335D091D-458E-41C2-A2BB-9F8216A8FA6B}
 		{8E7B7EB3-114B-48C4-8987-38E63DDCA09D} = {CE03294E-582F-47C6-BAD4-BBFA970FF25D}
+		{BFC8C6B7-AF7F-4C69-B80A-D8CC9C4660E6} = {26CB0999-BDB7-470B-A466-743E180E9EC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEE89471-4FE8-4620-991F-4EBAD0F4CFEA}

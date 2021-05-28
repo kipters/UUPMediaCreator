@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <RuntimeIdentifiers>linux-x64;linux-arm64</RuntimeIdentifiers>
+        <OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\UUPMediaConverter.GtkApp</OutputPath>
+        <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\UUPMediaConverter.GtkApp\</IntermediateOutputPath>
+        <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+        <Platforms>AnyCPU;x64;x86;arm64</Platforms>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="GtkSharp" Version="3.24.24.34" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\..\WindowsUpdateLib.NET\WindowsUpdateLib.NET.csproj" />
+    </ItemGroup>
+</Project>
